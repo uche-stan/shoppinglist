@@ -1,3 +1,1 @@
 # shoppinglist
-
-what the fuck
