@@ -1,0 +1,94 @@
+
+.list-box ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style-type: none;
+  
+    margin: 15px 0;
+    padding: 15px 0;
+}
+
+.list-box li{
+
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    padding: 8px 10px;
+    list-style-type: none;
+    width: 250px;
+    border-radius: 8px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.list-box li button{
+    color: red;
+    background: transparent;
+    border: none;
+    font: 1.5rem;
+    font-weight: bold;
+   
+    
+}
+
+form{
+
+    width: 50%
+}
+
+
+@media(max-width:992px){
+
+    form{
+        width: 100%;
+    }
+}
+
+.input-error{
+
+    outline: 1px solid red;
+}
+
+.filter{
+   width: 50%;
+    margin: auto;
+}
+
+.form-input-filter {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    outline: none;
+    
+  }
+
+  .text-red{
+
+   color: red
+  }
+
+  li{
+    cursor: pointer;
+  }
+
+ .form-btn {
+
+    background-color: #228b22;
+ }
+
+ .form-btn:hover{
+
+    background-color: #007000;
+ }
+
+ .edit-mode {
+
+    color: #ccc
+ }
